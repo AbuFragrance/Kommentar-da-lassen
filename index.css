@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #1B1924;
+    
+}
+
+#oben, #unten {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    margin: 0 auto;
+   
+       
+}
+
+
+img {
+
+    width: 90px;
+    height: 90px;
+
+}
+
+h1 {
+
+    font-family: "Josefin Sans", sans-serif;
+    width: 272px;
+    height: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    color: white;
+    
+    margin: 20px;
+}
+
+#input-field {
+
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-align: top ;
+    width: 317px;
+    height: 118px;
+    top: 202px;
+    left: 36px;
+    border: none;
+    border-radius: 8px;
+    background: #444059;
+    color: azure;
+    padding: 10px;
+
+}
+
+#input-field::placeholder {
+
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.15px;
+    color: #8F8F8F
+
+}
+
+button {
+
+    width: 317px;
+    height: 61px;
+    top: 333px;
+    left: 36px;
+    border: none;
+    border-radius: 8px;
+    margin: 20px 0 ;
+    background: #28A9F1 ;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #04131C;
+
+    cursor: pointer;
+
+}
+
+
+h2 {
+
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+ul li {
+
+    width: 317px;
+    background: #08f888;
+    color: rgb(76, 0, 255);
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+
+    border: none;
+    border-radius: 10px;
+
+    margin: 10px 0px;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+p {
+
+    color: #08f888;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 0 0 1px black;
+
+}
+
+#kommentare {
+
+    max-width: 320px;
+    padding: 0;
+    margin: 20px;
+    cursor: pointer;
+
+}
